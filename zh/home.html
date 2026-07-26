@@ -2,7 +2,7 @@
 title: 自新博物馆中央导航台
 description: 
 published: true
-date: 2026-07-25T16:16:18.555Z
+date: 2026-07-26T05:40:32.903Z
 tags: 导航
 editor: code
 dateCreated: 2026-04-03T15:46:35.795Z
@@ -10,93 +10,113 @@ dateCreated: 2026-04-03T15:46:35.795Z
 
 <div class="novark-home">
   <header class="novark-home__hero">
-    <p class="novark-home__eyebrow">NOVARK WIKI</p>
-    <h1 class="novark-home__title">自新博物馆中央导航台</h1>
-    <p class="novark-home__intro">
-      本页用于快速进入自新博物馆维基下属各世界、站内导航与共创规范。若您是第一次访问，建议先从各世界的<strong>世界总览</strong>开始。
-    </p>
+    <div class="novark-home__hero-copy">
+      <p class="novark-home__eyebrow">NOVARK / CENTRAL ARCHIVE</p>
+      <h1 class="novark-home__title">自新博物馆<br>中央馆导航台</h1>
+      <p class="novark-home__intro">
+        从这里进入各个世界、馆藏索引与共创流程。Wiki 陈列已经锚定的成品设定；
+        仍在生长的提案、互评与修订则保存在论坛。
+      </p>
+    </div>
+    <div class="novark-home__hero-register" aria-label="馆藏使用顺序">
+      <span><b>01</b> 选择世界</span>
+      <span><b>02</b> 阅读成品</span>
+      <span><b>03</b> 进入共创</span>
+    </div>
   </header>
 
-  <section class="novark-home__section" aria-labelledby="novark-home-worlds">
-    <h2 class="novark-home__section-title" id="novark-home-worlds">
-      <svg class="novark-home__section-icon" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 2 3 7v10l9 5 9-5V7l-9-5m0 2.3L18.5 8 12 11.7 5.5 8 12 4.3M5 9.7l6 3.4v6.3l-6-3.4V9.7m14 0V16l-6 3.4v-6.3l6-3.4Z"></path>
-      </svg>
-      <span>世界入口</span>
-    </h2>
+  <section class="novark-home__world-section" aria-labelledby="novark-home-worlds">
+    <div class="novark-home__section-heading">
+      <p class="novark-home__section-code">WORLD ARCHIVES / 01—03</p>
+      <h2 class="novark-home__section-title" id="novark-home-worlds">世界入口</h2>
+      <p class="novark-home__section-copy">三组相互独立的世界档案，由各自的总览页开始。</p>
+    </div>
 
-    <div class="novark-home__world-list">
-      <article class="novark-home__world">
-        <h3 class="novark-home__world-name">弥恩诸世</h3>
-        <p class="novark-home__world-description">挣扎在历史的十字路口下的近代奇幻世界。</p>
-        <a class="novark-home__world-link" href="/弥恩诸世">世界总览 <span aria-hidden="true">→</span></a>
+    <div class="novark-home__world-deck">
+      <article class="novark-home__world novark-home__world--meen">
+        <img
+          class="novark-home__world-image"
+          src="/novark/static/worlds/meen-crossroads.webp?v=1.0.0"
+          alt=""
+          width="1942"
+          height="809"
+          loading="eager"
+          fetchpriority="high"
+        >
+        <div class="novark-home__world-copy">
+          <p class="novark-home__world-index">WORLD / 01</p>
+          <p class="novark-home__world-name" role="heading" aria-level="3">弥恩诸世</p>
+          <p class="novark-home__world-description">挣扎在历史十字路口的近代奇幻世界。</p>
+          <a class="novark-home__world-link" href="/弥恩诸世">进入世界档案 <span aria-hidden="true">↗</span></a>
+        </div>
       </article>
 
-      <article class="novark-home__world">
-        <h3 class="novark-home__world-name">万方皆北</h3>
-        <p class="novark-home__world-description">冰汽时代已然降临的近代奇幻世界。</p>
-        <a class="novark-home__world-link" href="/万方皆北">世界总览 <span aria-hidden="true">→</span></a>
+      <article class="novark-home__world novark-home__world--north">
+        <img
+          class="novark-home__world-image"
+          src="/novark/static/worlds/northbound-ice.webp?v=1.0.0"
+          alt=""
+          width="1942"
+          height="809"
+          loading="lazy"
+        >
+        <div class="novark-home__world-copy">
+          <p class="novark-home__world-index">WORLD / 02</p>
+          <p class="novark-home__world-name" role="heading" aria-level="3">万方皆北</p>
+          <p class="novark-home__world-description">冰汽时代已经降临的近代奇幻世界。</p>
+          <a class="novark-home__world-link" href="/万方皆北">进入世界档案 <span aria-hidden="true">↗</span></a>
+        </div>
       </article>
 
-      <article class="novark-home__world">
-        <h3 class="novark-home__world-name">星际</h3>
-        <p class="novark-home__world-description">共产科幻的世界。</p>
-        <a class="novark-home__world-link" href="/星际/世界总览">世界总览 <span aria-hidden="true">→</span></a>
+      <article class="novark-home__world novark-home__world--stars">
+        <img
+          class="novark-home__world-image"
+          src="/novark/static/worlds/interstellar-common.webp?v=1.0.0"
+          alt=""
+          width="1945"
+          height="809"
+          loading="lazy"
+        >
+        <div class="novark-home__world-copy">
+          <p class="novark-home__world-index">WORLD / 03</p>
+          <p class="novark-home__world-name" role="heading" aria-level="3">星际</p>
+          <p class="novark-home__world-description">面向群星与共同未来的共产科幻世界。</p>
+          <a class="novark-home__world-link" href="/星际/世界总览">进入世界档案 <span aria-hidden="true">↗</span></a>
+        </div>
       </article>
     </div>
   </section>
 
-  <section class="novark-home__section" aria-labelledby="novark-home-navigation">
-    <h2 class="novark-home__section-title" id="novark-home-navigation">
-      <svg class="novark-home__section-icon" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M4 4h7v7H4V4m9 0h7v7h-7V4M4 13h7v7H4v-7m9 0h7v7h-7v-7M6 6v3h3V6H6m9 0v3h3V6h-3M6 15v3h3v-3H6m9 0v3h3v-3h-3Z"></path>
-      </svg>
-      <span>站内导航</span>
-    </h2>
-
-    <p class="novark-home__section-copy">以下页面用于在不同世界、术语、维护任务与高质量页面之间进行横向检索。</p>
-    <ul class="novark-home__link-list">
-      <li><a href="/弥恩诸世/术语汇编">术语汇编</a><span>专有名词与概念索引</span></li>
-      <li>需要帮助<span>待补充、待校对与待维护页面</span></li>
-      <li>精选<span>高质量页面汇总</span></li>
-      <li><a href="/跑团日志">跑团日志</a><span>跑团LOG归档</span></li>
-    </ul>
+  <section class="novark-home__index-section" aria-labelledby="novark-home-navigation">
+    <div class="novark-home__section-heading">
+      <p class="novark-home__section-code">REFERENCE MATRIX / A—E</p>
+      <h2 class="novark-home__section-title" id="novark-home-navigation">馆藏索引</h2>
+      <p class="novark-home__section-copy">从概念、规则、记录与维护规范横向进入馆藏。</p>
+    </div>
+    <nav class="novark-home__link-matrix" aria-label="馆藏索引">
+      <a href="/弥恩诸世/术语汇编"><b>A</b><span>术语汇编<small>专有名词与概念</small></span></a>
+      <a href="/弥恩诸世/增改规则"><b>B</b><span>增改规则<small>TRPG 规则与模组</small></span></a>
+      <a href="/跑团日志"><b>C</b><span>跑团日志<small>实际游玩记录</small></span></a>
+      <a href="/共创指南"><b>D</b><span>共创指南<small>提案与编录流程</small></span></a>
+      <a href="/编辑指南"><b>E</b><span>编辑指南<small>页面写作规范</small></span></a>
+    </nav>
   </section>
 
-  <section class="novark-home__section" aria-labelledby="novark-home-collaboration">
-    <h2 class="novark-home__section-title" id="novark-home-collaboration">
-      <svg class="novark-home__section-icon" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14l4-4h12c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-2 8H7V9h10v2m0-3H7V6h10v2Z"></path>
-      </svg>
-      <span>参与共创</span>
-    </h2>
-
-    <p class="novark-home__section-copy">Wiki 只展示已锚定的成文资料，供长期查阅和引用；论坛保存提案、互评、修订、团务与公开进行的论坛团。</p>
-    <a class="novark-home__primary-action" href="https://forum.novark.wiki/c/setting-proposals">
-      前往论坛提出设定、互评与修订 <span aria-hidden="true">→</span>
-    </a>
-
-    <div class="novark-home__card-grid">
-      <section class="novark-home__card" aria-labelledby="novark-home-guides">
-        <h3 class="novark-home__card-title" id="novark-home-guides">开始前阅读</h3>
-        <p>
-          <a href="/共创指南">共创指南</a>说明设定如何进入公共世界；<a href="/编辑指南">编辑指南</a>说明页面如何书写。
-        </p>
-      </section>
-
-      <section class="novark-home__card" aria-labelledby="novark-home-maintenance">
-        <h3 class="novark-home__card-title" id="novark-home-maintenance">维护成品</h3>
-        <p>页面勘误和维护建议可从需要帮助中选择待补充、待校对或待整理的页面。</p>
-      </section>
-
-      <section class="novark-home__card" aria-labelledby="novark-home-forum">
-        <h3 class="novark-home__card-title" id="novark-home-forum">论坛分区</h3>
-        <p>
-          <a href="https://forum.novark.wiki/c/setting-proposals">设定提案与互评</a>、
-          <a href="https://forum.novark.wiki/c/recruitment">招募与团务</a>、
-          <a href="https://forum.novark.wiki/c/campaigns">进行中的战役</a>。
-        </p>
-      </section>
+  <section class="novark-home__collaboration" aria-labelledby="novark-home-collaboration">
+    <div class="novark-home__collaboration-copy">
+      <p class="novark-home__section-code">OPEN WORKSHOP / FORUM</p>
+      <h2 class="novark-home__section-title" id="novark-home-collaboration">把想法带到共创现场</h2>
+      <p>
+        论坛承担草稿、评价、修订、招募与异步团；当设定形成共识后，再由编录员锚定到 Wiki。
+      </p>
+      <a class="novark-home__primary-action" href="https://forum.novark.wiki/c/setting-proposals">
+        前往设定提案与互评 <span aria-hidden="true">→</span>
+      </a>
     </div>
+    <nav class="novark-home__forum-routes" aria-label="论坛分区">
+      <a href="https://forum.novark.wiki/c/setting-proposals"><span>01</span>设定提案与互评</a>
+      <a href="https://forum.novark.wiki/c/recruitment"><span>02</span>招募与团务</a>
+      <a href="https://forum.novark.wiki/c/campaigns"><span>03</span>进行中的战役</a>
+    </nav>
   </section>
 </div>
